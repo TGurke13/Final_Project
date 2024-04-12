@@ -13,3 +13,4 @@ conference_neutral = pd.read_csv('C:\\Users\\thoma\\OneDrive\\Desktop\\School-St
 conference_stats = pd.read_csv('C:\\Users\\thoma\\OneDrive\\Desktop\\School-Stuff\\Final_Project\\FP1\\MM_CSV\\Conference Stats.csv')
 num_of_upsets = pd.read_csv('C:\\Users\\thoma\\OneDrive\\Desktop\\School-Stuff\\Final_Project\\FP1\\MM_CSV\\Upset Count.csv')
 heat_check = pd.read_csv('C:\\Users\\thoma\\OneDrive\\Desktop\\School-Stuff\\Final_Project\\FP1\\MM_CSV\\Heat Check Tournament Index.csv')
+upeset_seed_info = pd.read_csv('C:\\Users\\thoma\\OneDrive\\Desktop\\School-Stuff\\Final_Project\\FP1\\MM_CSV\\Upset Seed Info.csv')
