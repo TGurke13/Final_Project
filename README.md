@@ -36,10 +36,8 @@ Despite this setback, it’s important to remember that due to the inherent unpr
 
 ## Sources
 
-The dataset used in this research was obtained from Kaggle. The specific dataset can be found at the following link: `March Madness Data` 
-
-We express our gratitude to the contributors of this dataset for making it publicly available, thereby facilitating our research.
-
+- The dataset used in this research was obtained from Kaggle: `https://www.kaggle.com/datasets/nishaanamin/march-madness-data?select=Upset+Count.csv`
+- This project was assisted by GitHub Copilot and OpenAI's ChatGPT
 
 ## Acknowledgements
 We would like to express our gratitude to the following Python libraries and their contributors, which have been instrumental in the success of this project:
