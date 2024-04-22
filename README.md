@@ -17,12 +17,12 @@ The dataset used for this analysis contains historical data of NCAA basketball g
 These datasets contained a variety of metrics that influenced the neural network model, such as various power metrics based on a teams division performance.
 
 ## Methodology
-1. **Data Preprocessing:** Cleaned and preprocessed the dataset to handle missing values, normalize features, and engineer relevant features for modeling.
-2. **Feature Selection:** Selected relevant features using techniques such as correlation analysis, feature importance, and domain knowledge.
-3. **Model Building:** Implemented neural network models using frameworks such as TensorFlow. Experimented with various architectures.
-4. **Model Training:** Trained the neural network models on historical tournament data using techniques like hyperparameter tuning to optimize performance.
-5. **Model Evaluation:** Evaluated the models using metrics such as accuracy and loss values.
-6. **Prediction:** Used the trained models to predict the outcomes of future NCAA March Madness tournaments.
+1. **Data Preprocessing:** Cleaned and preprocessed the datasets to handle missing values, normalize features, and engineer relevant features for modeling. (seen in Data Clean notebook)
+2. **Feature Selection:** Selected relevant features using techniques such as correlation analysis, feature importance, and domain knowledge. (Seen in Models notebook)
+3. **Model Building:** Implemented neural network models using frameworks such as TensorFlow. Experimented with various architectures. (Seen in Models notebook)
+4. **Model Training:** Trained the neural network models on historical tournament data using techniques like hyperparameter tuning to optimize performance. (Seen in Models notebook)
+5. **Model Evaluation:** Evaluated the models using metrics such as accuracy and loss values. (Seen in Models notebook)
+6. **Prediction:** Used the trained models to predict the outcomes of future NCAA March Madness tournaments. (Seen in Models notebook)
 
 ## Results
 The neural network models encountered some issues in predicting the winners of NCAA March Madness tournament games. Specifically, there was a mismatch in the number of features between the trained model and the 2024 input data, which led to an error. This indicates that the preprocessing steps applied to the training data and X_2024 might not be the same, or X_2024 might be missing some features present in the training data.
@@ -33,6 +33,13 @@ Despite this setback, it’s important to remember that due to the inherent unpr
 - Thomas Gauerke
 - Rich Varos
 - John Parente
+
+## Sources
+
+The dataset used in this research was obtained from Kaggle. The specific dataset can be found at the following link: `March Madness Data` 
+
+We express our gratitude to the contributors of this dataset for making it publicly available, thereby facilitating our research.
+
 
 ## Acknowledgements
 We would like to express our gratitude to the following Python libraries and their contributors, which have been instrumental in the success of this project:
